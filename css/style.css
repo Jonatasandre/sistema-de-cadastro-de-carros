@@ -48,3 +48,25 @@ form button {
     font-size: 1em;
     transition: background 0.3s ease;
 }
+form button:hover {
+    background: #2a5298;
+}
+table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+th {
+    background-color: #1e3c72;
+    color: white;
+}
+.no-data {
+    text-align: center;
+    color: #777;
+    padding: 15px;
+}
